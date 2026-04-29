@@ -1,0 +1,26 @@
+.page {
+  /* border: 1px solid purple; */
+  height: 100%;
+
+  .top {
+    display: flex;
+
+    .top-left {
+      /* border: 1px solid red; */
+      width: 50%;
+    }
+
+    .top-right {
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+      /* border: 1px solid blue; */
+      width: 50%;
+    }
+  }
+
+  .bottom {
+    /* border: 1px solid green; */
+    margin-top: 2rem;
+  }
+}
